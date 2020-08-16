@@ -1,0 +1,119 @@
+.organisation__brand-border-top {
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+.organisation__margin-bottom {
+    margin-bottom: 30px;
+}
+
+.brand--department-for-transport.brand__border-color, .brand--department-for-transport .brand__border-color {
+    border-color: #006c56;
+}
+
+.brand--department-for-transport .brand__color, .brand--department-for-transport .brand__color:visited {
+    color: #398373;
+}
+
+.home-top {
+    overflow: hidden;
+    background: #1d70b8;
+    color: #ffffff;
+}
+
+.home-top__title {
+    margin: 0;
+    font-family: "nta", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    padding: 25px 0 15px;
+    font-size: 48px;
+    line-height: 1.0416666667
+}
+
+.home-top__intro {
+    margin: 0;
+}
+
+.home-top__intro--simpler {
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+.home-top__links {
+    padding: 0 0 20px 0
+}
+
+.home-top__links:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 0;
+    bottom: -100px;
+    width: 100%;
+    background: #0b0c0c
+}
+
+.home-top__links-title {
+    font-family: "nta", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0
+}
+
+.home-top__links-list {
+    margin: 0;
+    padding: 0
+}
+
+.home-top__links-item {
+    font-family: "nta", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    list-style: none;
+    margin: 5px 0
+}
+
+.home-top__links-link {
+    color: #ffffff
+}
+
+.home-top__links-link:link,
+.home-top__links-link:visited {
+    color: #ffffff
+}
+
+.home-top__links-link:active,
+.home-top__links-link:hover {
+    color: #b1b4b6
+}
+
+.home-top__links-link:focus,
+.home-top__links-link:link:focus {
+    outline: 3px solid transparent;
+    color: #0b0c0c;
+    background-color: #ffdd00;
+    box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+    text-decoration: none
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card time {
+    font-size: 13px;
+    color: #505a5f;
+}
+
+.card h3 {
+    margin-top: 0;
+}
