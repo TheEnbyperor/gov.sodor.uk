@@ -46,9 +46,11 @@
             </a>
         </div>
         <div class="govuk-header__content">
-            <a href="#" class="govuk-header__link govuk-header__link--service-name">
-                RAIB
+            {% if page.org %}
+            <a href="{{ page.org_link }}" class="govuk-header__link govuk-header__link--service-name">
+                {{ page.org }}
             </a>
+            {% endif %}
             <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation"
                     aria-label="Show or hide Top Level Navigation">Menu
             </button>
@@ -73,6 +75,10 @@
     <div class="govuk-width-container ">
         <div class="govuk-footer__meta">
             <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+                <p>
+                    A project by <a href="https://magicalcodewit.ch" class="govuk-footer__link">Q &#x1f984;</a>
+                </p>
+                <iframe src="https://github.com/sponsors/TheEnbyperor/card" title="Sponsor TheEnbyperor" height="150" width="100%" style="border: 0;"></iframe>
                 <p>
                     Design language and resources used under licence from the the
                     <a class="govuk-footer__link" href="https://design-system.service.gov.uk/">GOV.UK Design Systems team</a>.

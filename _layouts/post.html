@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="govuk-width-container">
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.lead }}</p>
+        <hr>
+        <p>
+            Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time><br/>
+            {% if page.org %}
+            Published by: <a href="{{ page.org_link }}">{{ page.org }}</a>
+            {% endif %}
+        </p>
+        <hr>
+        {{ content }}
+    </main>
+</div>

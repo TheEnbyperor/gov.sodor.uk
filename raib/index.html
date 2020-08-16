@@ -1,5 +1,7 @@
 ---
 layout: default
+org: RAIB
+org_link: /raib
 ---
 
 <div class="govuk-width-container">
@@ -22,7 +24,7 @@ layout: default
                 {% endif %}
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time>
                 <h3><a href="{{ post.url }}" class="brand__color">{{ post.title }}</a></h3>
-                <p>{{ post.excerpt }}</p>
+                <p>{{ post.lead }}</p>
             </div>
             {% if mod3 == 0 or mod3 == 2 %}</div><div class="govuk-grid-row">{% endif %}
             {% endfor %}
